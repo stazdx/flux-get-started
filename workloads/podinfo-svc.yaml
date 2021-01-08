@@ -5,6 +5,7 @@ metadata:
   namespace: demo
   labels:
     app: podinfo
+    test: flux
 spec:
   type: ClusterIP
   selector:
